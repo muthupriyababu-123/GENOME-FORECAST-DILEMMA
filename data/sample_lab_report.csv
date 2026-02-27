@@ -1,0 +1,6 @@
+Sample_ID,SNP1,SNP2,SNP3,Temperature,Rainfall
+Line_A,AA,AT,TT,28,500
+Line_B,TT,AA,AT,30,450
+Line_C,AT,TT,AA,25,600
+Line_D,AA,AA,AA,33,400
+Line_E,TT,TT,TT,26,580

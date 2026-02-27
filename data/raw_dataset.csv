@@ -1,0 +1,51 @@
+Sample_ID,Year,Season,Location,Marker1,Marker2,Marker3,Temperature,Rainfall,Yield
+ZM_001,2022,Kharif,Maharashtra,0,1,2,28.4,487,5.21
+ZM_002,2022,Kharif,Karnataka,1,0,1,30.2,512,6.13
+ZM_003,2022,Kharif,Tamil Nadu,2,2,0,25.6,623,7.34
+ZM_004,2022,Kharif,Andhra Pradesh,0,0,1,32.1,398,4.82
+ZM_005,2022,Kharif,Telangana,1,2,2,27.3,554,6.85
+ZM_006,2022,Kharif,Madhya Pradesh,2,1,0,29.4,476,5.94
+ZM_007,2022,Rabi,Punjab,0,2,1,31.2,518,6.32
+ZM_008,2022,Rabi,Haryana,1,1,2,26.4,582,7.04
+ZM_009,2022,Rabi,Uttar Pradesh,2,0,0,33.1,418,4.51
+ZM_010,2022,Rabi,Bihar,0,1,0,28.3,462,5.54
+ZM_011,2022,Kharif,Rajasthan,1,2,1,30.4,514,6.44
+ZM_012,2022,Kharif,Gujarat,2,1,2,24.7,628,7.84
+ZM_013,2022,Rabi,Himachal Pradesh,0,0,2,32.4,392,4.62
+ZM_014,2022,Rabi,Uttarakhand,1,0,0,29.2,468,5.74
+ZM_015,2022,Kharif,Odisha,2,2,1,27.4,542,6.94
+ZM_016,2022,Kharif,West Bengal,0,2,0,31.4,504,6.24
+ZM_017,2022,Rabi,Jharkhand,1,1,0,26.2,558,6.74
+ZM_018,2022,Kharif,Chhattisgarh,2,0,2,34.2,412,4.42
+ZM_019,2022,Kharif,Maharashtra,0,1,1,28.2,482,5.64
+ZM_020,2022,Rabi,Karnataka,1,2,0,30.3,532,6.54
+ZM_021,2022,Kharif,Tamil Nadu,2,1,1,25.2,592,7.24
+ZM_022,2022,Rabi,Andhra Pradesh,0,0,0,33.4,402,4.72
+ZM_023,2022,Kharif,Telangana,1,0,2,29.3,472,5.84
+ZM_024,2022,Kharif,Madhya Pradesh,2,2,2,27.2,572,7.14
+ZM_025,2022,Rabi,Punjab,0,2,2,31.3,512,6.44
+ZM_026,2023,Kharif,Maharashtra,1,1,1,26.3,552,6.64
+ZM_027,2023,Kharif,Karnataka,2,0,1,28.1,494,5.94
+ZM_028,2023,Rabi,Tamil Nadu,0,1,2,30.1,524,6.34
+ZM_029,2023,Kharif,Andhra Pradesh,1,2,2,25.4,604,7.54
+ZM_030,2023,Rabi,Telangana,2,1,0,32.3,394,4.66
+ZM_031,2023,Kharif,Madhya Pradesh,0,0,1,29.1,484,5.76
+ZM_032,2023,Rabi,Punjab,1,0,0,27.1,544,6.76
+ZM_033,2023,Kharif,Haryana,2,2,2,31.1,514,6.36
+ZM_034,2023,Rabi,Uttar Pradesh,0,2,1,26.1,564,6.76
+ZM_035,2023,Kharif,Bihar,1,1,2,28.3,474,5.86
+ZM_036,2023,Kharif,Rajasthan,2,0,0,30.2,524,6.36
+ZM_037,2023,Rabi,Gujarat,0,1,0,25.1,604,7.46
+ZM_038,2023,Kharif,Himachal Pradesh,1,2,1,32.2,404,4.76
+ZM_039,2023,Rabi,Uttarakhand,2,1,2,29.2,484,5.86
+ZM_040,2023,Kharif,Odisha,0,0,2,27.2,554,6.86
+ZM_041,2023,Rabi,West Bengal,1,2,0,31.2,514,6.26
+ZM_042,2023,Kharif,Jharkhand,2,1,1,26.2,564,6.76
+ZM_043,2023,Rabi,Chhattisgarh,0,0,0,33.3,404,4.66
+ZM_044,2023,Kharif,Maharashtra,1,0,2,29.3,484,5.76
+ZM_045,2023,Rabi,Karnataka,2,2,1,27.3,554,6.86
+ZM_046,2023,Kharif,Tamil Nadu,0,2,0,31.3,514,6.26
+ZM_047,2023,Rabi,Andhra Pradesh,1,1,0,26.3,564,6.66
+ZM_048,2023,Kharif,Telangana,2,0,2,28.2,494,5.96
+ZM_049,2023,Rabi,Madhya Pradesh,0,1,1,30.2,524,6.36
+ZM_050,2023,Kharif,Punjab,1,2,2,25.3,614,7.56
