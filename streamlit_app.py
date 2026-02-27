@@ -630,15 +630,25 @@ if predict_clicked:
                             st.pyplot(fig_summary, use_container_width=True)
                             plt.close()
 
-                            # Text summary
+                            # Text summary — markers only
                             mean_shap = np.abs(sv.values).mean(axis=0)
-                            top_idx   = np.argmax(mean_shap)
-                            top_feat  = FEATURE_NAMES[top_idx]
+
+                            # Find most influential MARKER (exclude Rainfall & Temperature)
+                            marker_indices = [i for i, f in enumerate(FEATURE_NAMES) if f.startswith('Marker')]
+                            top_marker_idx = max(marker_indices, key=lambda i: mean_shap[i])
+                            top_marker     = FEATURE_NAMES[top_marker_idx]
+                            top_marker_val = mean_shap[top_marker_idx]
+
+                            # Rank all markers
+                            marker_ranking = sorted(marker_indices, key=lambda i: mean_shap[i], reverse=True)
+
                             st.markdown(f"""
                             <div class="success-box">
-                            🏆 <strong>Most Influential Feature: {top_feat}</strong><br>
-                            On average, <strong>{top_feat}</strong> has the highest impact on yield prediction
-                            with a mean |SHAP| value of <strong>{mean_shap[top_idx]:.3f} t/ha</strong>.
+                            🏆 <strong>Most Influential Genomic Marker: {top_marker}</strong><br>
+                            Among all SNP markers, <strong>{top_marker}</strong> has the highest impact
+                            on yield prediction with a mean |SHAP| value of <strong>{top_marker_val:.3f} t/ha</strong>.<br><br>
+                            📊 <strong>Marker Ranking:</strong>
+                            {'  &nbsp;›&nbsp;  '.join([f"<strong>{FEATURE_NAMES[i]}</strong> ({mean_shap[i]:.3f})" for i in marker_ranking])}
                             </div>
                             """, unsafe_allow_html=True)
 
